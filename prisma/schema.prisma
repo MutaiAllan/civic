@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id         String      @id @default(uuid())
+  email      String      @unique
+  role       Role        @default(CITIZEN)
+  createdAt  DateTime    @default(now()) @map("created_at")
+  complaints Complaint[]
+
+  @@map("users")
+}
+
+model Complaint {
+  id             String          @id @default(uuid())
+  userId         String          @map("user_id")
+  rawText        String          @map("raw_text")
+  category       String?
+  sentimentLabel SentimentLabel? @map("sentiment_label")
+  status         Status          @default(PENDING)
+  department     String?
+  createdAt      DateTime        @default(now()) @map("created_at")
+  user           User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("complaints")
+}
+
+enum Role {
+  CITIZEN
+  ADMIN
+}
+
+enum Status {
+  PENDING
+  IN_PROGRESS
+  RESOLVED
+}
+
+enum SentimentLabel {
+  POSITIVE
+  NEGATIVE
+  NEUTRAL
+}

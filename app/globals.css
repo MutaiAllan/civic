@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+  * { box-sizing: border-box; }
+  body { @apply font-sans; }
+  input, select, textarea {
+    @apply outline-none focus:ring-1 focus:ring-slate-300;
+  }
+}
