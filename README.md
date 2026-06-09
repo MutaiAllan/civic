@@ -14,7 +14,6 @@ Follow these steps to get the project running on a fresh environment.
 
 ### 2. Clone and Install
 ```bash
-git clone https://github.com/pogmoji/civic.git
 cd civic
 npm install
 ```
