@@ -1,0 +1,18 @@
+Negative (High Priority)
+Infrastructure: "There is a massive pothole on the main junction of Uhuru Highway. Two cars popped tires this morning. It’s becoming a death trap."
+Sanitation: "The garbage collection truck hasn't visited our neighborhood in over 3 weeks. The smell is unbearable and it's attracting rodents."
+Utilities: "The water supply has been brown and filled with sediment since the heavy rains on Monday. We cannot use it for cooking."
+Governance: "The official at the licensing desk requested a 'facilitation fee' to process my business permit faster. This is unacceptable."
+Health: "The local clinic has been out of basic malaria testing kits for 10 days. Patients are being turned away without help."
+Neutral (Informational)
+Infrastructure: "The street lights on 5th Avenue are flickering. They are not completely out, but they need maintenance before they fail."
+Environment: "A new construction site has started next door. Just checking if they have the proper NEMA noise permits for late-night work."
+Education: "When is the deadline for applying for the county bursary program? The website doesn't show the updated 2026 dates."
+Other: "The public benches in the central square are getting quite old and the wood is splintering. They might need a fresh coat of paint soon."
+Utilities: "I noticed a small leak in the main pipe near the community garden. It's not a burst yet, but it's constantly dripping."
+Positive (Appreciation)
+Health: "I visited the General Hospital today and was very impressed with the new digital queue system. It saved me hours of waiting!"
+Infrastructure: "Huge thanks to the transport team for fixing the bridge so quickly after the floods. The commute is back to normal now."
+Sanitation: "The city looks much cleaner since the new 'Keep it Green' bins were installed. Great initiative by the sanitation authority."
+Education: "The new school feeding program in our ward has been a lifesaver. My children are much more energized and happy to attend classes."
+Governance: "Process for renewing my ID was surprisingly smooth. The staff were professional and helpful. Well done!"
